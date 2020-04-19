@@ -1,0 +1,10 @@
+.container{
+	float: left;
+}
+img {
+            width:150px;
+            padding: 20px;
+        }
+        td{
+            text-align : center;
+  }
