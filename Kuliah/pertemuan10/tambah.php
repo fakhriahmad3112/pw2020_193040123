@@ -1,3 +1,19 @@
+<?php
+require 'functions.php';
+
+if (isset($_POST['tambah'])) {
+  if (tambah($_POST) > 0) {
+    echo "<script>
+            alert('data berhasil ditambahkan');
+            document.location.href = 'latihan3.php';
+            </script>";
+  } else {
+    echo "data gagal ditambahkan";
+  }
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,32 +31,35 @@
       <li>
         <label>
           Nama :
-          <input type="text" name="nama">
+          <input type="text" name="nama" autofocus required>
         </label>
       </li>
       <li>
         <label>
           NRP :
-          <input type="text" name="nrp">
+          <input type="text" name="nrp" required>
         </label>
       </li>
       <li>
         <label>
           Email :
-          <input type="text" name="email">
+          <input type="text" name="email" required>
         </label>
       </li>
       <li>
         <label>
           Jurusan :
-          <input type="text" name="jurusan">
+          <input type="text" name="jurusan" required>
         </label>
       </li>
       <li>
         <label>
           Gambar :
-          <input type="text" name="gambar">
+          <input type="text" name="gambar" required>
         </label>
+      </li>
+      <li>
+        <button type="submit" name="tambah">Tambah Data!</button>
       </li>
     </ul>
   </form>
