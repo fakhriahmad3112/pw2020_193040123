@@ -1,0 +1,25 @@
+.container{
+	float: left;
+	font-family: Comic Sans MS
+}
+
+th {
+	background-color: grey;
+}
+table {
+	background-color: lightblue;
+}
+
+img {
+            width:150px;
+            padding: 20px;
+        }
+        td{
+            text-align : center;
+  }
+
+.registrasi {
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
