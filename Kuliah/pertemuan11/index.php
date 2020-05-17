@@ -61,6 +61,8 @@ if (isset($_POST['cari'])) {
       </tr>
       <?php $i++; ?>
     <?php endforeach; ?>
+    <hr>
+    <a href="../../Tubes/php/index2.php" style="font-family: Vladimir Script; font-size: 25px; padding-left: 15px;">Back To Index</a>
 
   </table>
 

@@ -55,7 +55,7 @@ if (isset($_POST['submit'])) {
       <td><input type="password" name="password"></td>
     </tr>
   </table>
-  <div class="remeber">
+  <div class="remember">
     <input type="checkbox" name="remember">
     <label for="remember">Remember Me</label>
   </div>

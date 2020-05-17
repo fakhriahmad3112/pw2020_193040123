@@ -1,0 +1,50 @@
+.slider h3,
+.slider h5 {
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+
+.body_login {
+  background-color: cadetblue;
+  background-image: image-set("../assets/img/admin.jpg");
+
+}
+
+.login {
+  margin: auto;
+  padding-left: 200px;
+  padding-top: 50px;
+}
+
+.register{
+  font-size: 15px;
+  font-family:'Courier New', Courier, monospace;
+  padding-left: 20px;
+}
+
+.remember {
+  margin: auto;
+  font-size: 20px;
+}
+
+.button {
+  margin: auto;
+  padding-left: 20px;
+}
+
+.registrasi {
+ padding-left: 280px; 
+ padding-top: 100px;
+}
+
+.body_registrasi {
+  background-color: cornflowerblue;
+}
+
+footer {
+  padding: 20px 0;
+}
+
+.index2{
+  background-image: image-set();
+}
